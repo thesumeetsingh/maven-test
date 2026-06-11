@@ -1,7 +1,5 @@
 package com.sumeet;
 
-// import org.junit.Test;
-// import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestCalc {
@@ -16,5 +14,11 @@ public class TestCalc {
     }
 
     //added commend to test new branch
-    
+    @Test
+    void testForName(){
+        Demo demo= new Demo();
+        System.out.println("testing Demo for For Name");
+
+        assertFalse(false);
+    }
 }
