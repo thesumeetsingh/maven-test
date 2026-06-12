@@ -17,7 +17,7 @@ public class SQLInsert {
         Statement statement= connect.createStatement();
 
         //process data
-        String query= "INSERT INTO USER_INFO(ID, SNAME, SAGE, SCITY) VALUES(2, 'S SINGH', 21, 'Durg');";
+        String query= "INSERT INTO USER_INFO(ID, SNAME, SAGE, SCITY) VALUES(5, ' GITA', 16, 'CHENNAI');";
         int rowAffected=statement.executeUpdate(query);
         if(rowAffected==0){
             System.out.println("cannot inseert data");
