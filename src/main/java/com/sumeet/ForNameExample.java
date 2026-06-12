@@ -1,6 +1,16 @@
 package com.sumeet;
 
 public class ForNameExample {
+    public static void main(String args[]){
+        // Demo demo= new Demo();
+        try{
+            Class.forName("com.sumeet.Demo");
+        }catch(Exception e){
+            System.out.print("cannot initialise");
+        }
+        
+
+    }
     
 }
 

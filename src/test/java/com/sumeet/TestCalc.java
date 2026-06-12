@@ -19,6 +19,6 @@ public class TestCalc {
         Demo demo= new Demo();
         System.out.println("testing Demo for For Name");
 
-        assertFalse(false);
+        
     }
 }
