@@ -17,7 +17,7 @@ public class SQLSelect {
 
         Statement statement= connect.createStatement();
 
-        String query="SELECT * FROM USER_INFO;";
+        String query="SELECT * FROM USER_INFO WHERE ID=EW;";
 
         ResultSet rs= statement.executeQuery(query);
         // System.out.println(rs);
